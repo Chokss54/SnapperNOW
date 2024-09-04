@@ -2,7 +2,7 @@ import functions_framework
 from email_utils import send_email
 from web_scraper import get_bay_temps
 from secret_manager import get_secret
-from emails import sender_email, receiver_emails 
+from config import sender_email, receiver_emails 
 
 @functions_framework.http
 def snapperNOW(request):
