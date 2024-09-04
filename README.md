@@ -28,5 +28,5 @@ To use this project, you need to create a configuration file named `config.py` i
    receiver_emails = ["xxx@gmail.com, xxx@gmail.com"]
 
    # Full path to the sender email password in Google Secret Manager
-   SECRET_PATH = "projects/your-project-id/secrets/your-secret-name/versions/latest"
+   SECRET_PASSWORD= "projects/your-project-id/secrets/your-secret-name/versions/latest"
    ```
