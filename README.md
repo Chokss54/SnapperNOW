@@ -30,3 +30,7 @@ To use this project, you need to create a configuration file named `config.py` i
    # Full path to the sender email password in Google Secret Manager
    SECRET_PASSWORD= "projects/your-project-id/secrets/your-secret-name/versions/latest"
    ```
+## Learning Outcome
+1. Learning how web scraping works and building a web scraper.
+2. Using Google Cloud Functions to run and deploy scripts.
+3. Using the Google Cloud Scheduler feature to automate the execution of a script at specified time intervals
